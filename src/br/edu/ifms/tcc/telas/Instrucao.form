@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="33" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="JBVoltar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="1193" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="JBVoltar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="55" max="32767" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="87" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" pref="1154" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="435" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="16" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Leia atentamente a todas as instu&#xe7;&#xf5;es, para que possa usufruir ao m&#xe1;ximo deste programa.&#xa;H&#xe1; quatro bot&#xf5;es na tela inicial. &#xa;1 - O primeiro bot&#xe3;o &quot;Iniciar&quot;, abre outra tela onde voc&#xea; pode escolher dentre quatro conte&#xfa;dos aquele que deseja resolver. Voc&#xea; pode resolver &#xa;as quest&#xf5;es pelo PDF ou pela ferramenta.&#xa;&#x9;- S&#xe3;o quatro conte&#xfa;dos, cada um corresponde &#xe0; um ano do ensino fundametal 2. Conte&#xfa;do 1 corresponde ao 6&#xb0; ano, Conte&#xfa;do 2 corresponde &#xa;&#x9;ao 7&#xb0; ano, Conte&#xfa;do 3 corresponde ao 8&#xb0; ano e o Conte&#xfa;do 4 corresponde ao 9&#xb0; ano.&#xa;&#x9;- Nos PDF&#xb4;s est&#xe3;o disponibilizados os conte&#xfa;dos das mat&#xe9;rias que s&#xe3;o cobradas na ferramenta, al&#xe9;m das pr&#xf3;prias quest&#xf5;es e os gabaritos.&#xa;&#x9;- Na &#xe1;rea &quot;Procurar Quest&#xe3;o Espec&#xed;fica&quot;, voc&#xea; pode, atrav&#xe9;s do n&#xfa;mero da quest&#xe3;o, pesquisar aquelas quest&#xf5;es que voc&#xea; errou &#xa;&#x9;anteriormente para descobrir o que fez de errado, e gabaritar o respectivo conte&#xfa;do na sua pr&#xf3;xima tentativa.&#xa;2 - O segundo bot&#xe3;o &quot;Tabela&quot;, abre outra tela onde voc&#xea; verificar o seu hist&#xf3;rico de tentativas de todos os quatro conte&#xfa;dos.&#xa;&#x9;- Voc&#xea; poder&#xe1; ver quantas quest&#xf5;es acertou dentre as trinta, no respectivo conte&#xfa;do.&#xa;&#x9;- Tamb&#xe9;m poder&#xe1; verificar quais quest&#xf5;es errou na respectiva tentativa.&#xa;4 - O terceiro bot&#xe3;o &quot;Instru&#xe7;&#xf5;es&quot; te levar&#xe1; para esta tela.&#xa;3 - O quarto bot&#xe3;o &quot;Cr&#xe9;ditos&quot;, abre outra tela onde estar&#xe1; escrito os nomes dos programadores envolvidos no desenvolvimeto desta ferramenta.&#xa;Notas Importantes:&#xa;- Voc&#xea; n&#xe3;o poder&#xe1; voltar para a quest&#xe3;o anterior enquanto resolve algum Conte&#xfa;do, m&#xe1;s poder&#xe1; parar no meio das resolu&#xe7;&#xf5;es, e seu progresso n&#xe3;o&#xa;ser&#xe1; salvo na tabela de hist&#xf3;rico. Portanto preste aten&#xe7;&#xe3;o antes de avan&#xe7;ar para a proxima quest&#xe3;o!&#xa;- Ao final da resolu&#xe7;&#xe3;o de qualquer Conte&#xfa;do, voc&#xea; ser&#xe1; redirecionado para a tela de resultados, onde poder&#xe1; verificar a sua porcentagem de &#xa;aproveitamento, al&#xe9;m das quest&#xf5;es que voc&#xea; errou no momento. (A barra de aproveitamento &#xe9; preenchida conforme o total de quest&#xf5;es acertados em&#xa;rela&#xe7;&#xe3;o ao total de quest&#xf5;es)"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="JBVoltar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="cc" red="0" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Voltar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBVoltarActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
